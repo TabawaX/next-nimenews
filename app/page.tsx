@@ -11,7 +11,6 @@ const Home = () => {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
         <title>Kaori - Anime News</title>
       </Head>
-      <Header />
       <nav>
         <div className="nav-logo">
           <h1 translate="no">KAORI</h1>
