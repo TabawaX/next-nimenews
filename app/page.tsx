@@ -1,7 +1,6 @@
 import '@styles/homepage.css'
 import '@styles/reset.css'
 import Head from 'next/head'
-import Header from '@components/Header'
 
 const Home = () => {
   return (
@@ -32,7 +31,7 @@ const Home = () => {
       <div className="container">
         <section className="hero">
           <a href="#" className="news one">
-            <img src="./Media/bg-image.jpg" alt="" />
+            <img src="./public/bg-image.jpg" alt="" />
             <div className="content">
               <h1 className="title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
               <p className="label"><span>KAORI</span> - 29 Nov 2024</p>
@@ -43,7 +42,7 @@ const Home = () => {
         <section className="latest-news">
           <h2 className="title-section">Latest News</h2>
           <a href="#" className="news one">
-            <div className="image"><img src="./Media/bg-image.jpg" alt="" /></div>
+            <div className="image"><img src="./public/bg-image.jpg" alt="" /></div>
             <div className="content">
               <p className="label"><span>KAORI</span> - 11 Apr 2024</p>
               <h2 className="title">Lorem ipsum dolor sit amet consectetur.</h2>
@@ -55,7 +54,7 @@ const Home = () => {
         <section className="must-read">
           <h3 className="title-section">Must Read</h3>
           <a href="#" className="news one">
-            <div className="image"><img src="./Media/bg-image.jpg" alt="" /></div>
+            <div className="image"><img src="./public/bg-image.jpg" alt="" /></div>
             <div className="content">
               <h3 className="title">Lorem ipsum dolor sit amet consectetur.</h3>
               <p id="submit-btn">read more <span>⟶</span></p>
@@ -66,7 +65,7 @@ const Home = () => {
         <section className="editors-pick">
           <h4 className="title-section">Editor's Pick</h4>
           <a href="#" className="news one">
-            <img src="./Media/bg-image.jpg" alt="" />
+            <img src="./public/bg-image.jpg" alt="" />
             <div className="content">
               <h4 className="title">Lorem ipsum dolor sit amet consectetur.</h4>
               <p id="submit-btn">read more <span>⟶</span></p>
@@ -78,7 +77,7 @@ const Home = () => {
           <div className="season">
             <h4 className="title-section">This Season</h4>
             <a href="#" className="news one">
-              <div className="image"><img src="./Media/bg-image.jpg" alt="" /></div>
+              <div className="image"><img src="./public/bg-image.jpg" alt="" /></div>
               <div className="content">
                 <h4 className="title">Lorem ipsum dolor sit amet consectetur.</h4>
                 <p id="submit-btn">read more <span>⟶</span></p>
@@ -88,7 +87,7 @@ const Home = () => {
           <div className="manga">
             <h4 className="title-section">Manga</h4>
             <a href="#" className="news one">
-              <div className="image"><img src="./Media/bg-image.jpg" alt="" /></div>
+              <div className="image"><img src="./public/bg-image.jpg" alt="" /></div>
               <div className="content">
                 <h4 className="title">Lorem ipsum dolor sit amet consectetur.</h4>
                 <p id="submit-btn">read more <span>⟶</span></p>
