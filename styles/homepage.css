@@ -23,8 +23,8 @@ html {
 
 /* Universal */
 :root {
-  --purple:  #673ee4;
-  --dark-purple: #5a34c2;
+  --hijau: #90ee90; 
+  --dark-purple: #70c570; 
   --pink: #fd5286;
   --gray: #e6e6e6;
 }
@@ -121,7 +121,7 @@ img {
 }
 
 #submit-btn {
-  color: var(--purple);
+  color: var(--hijau);
   display: inline-block;
   margin-top: 10px;
 }
@@ -143,7 +143,7 @@ img {
 /* Navigation Bar Section */
 nav {
   width: 100%;
-  background: var(--purple);
+  background: var(--hijau);
   position: fixed;
   top: 0;
   left: 0;
@@ -158,6 +158,11 @@ nav {
 
 .nav-logo {
   padding: 0 20px 0 0;
+}
+
+.nav-logo img {
+  max-width: 100px; 
+  height: auto; 
 }
 
 .nav-logo h1 {
@@ -325,7 +330,8 @@ nav {
 
 /* Latest News Section */
 .latest-news {
-  margin-bottom: 100px;
+  margin-top: -75px;
+  margin-bottom: 5px;
 }
 
 .wrapper-latest-news {
@@ -466,7 +472,7 @@ nav {
 }
 
 .wrapper-top-creator .creator .info p {
-  color: var(--purple);
+  color: var(--hijau);
 }
 
 .wrapper-top-creator .creator:hover .info p {
@@ -500,7 +506,7 @@ nav {
 }
 
 .left span {
-  color: var(--purple);
+  color: var(--hijau);
 }
 
 .right {
@@ -792,9 +798,6 @@ footer {
 }
 
 
-
-
-
 /* Responsive for Footer Section */
 @media (max-width: 1073px) {
   footer {
@@ -813,3 +816,4 @@ footer {
     padding-top: 0;
   }
 }
+
